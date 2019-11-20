@@ -1,0 +1,120 @@
+1. Click Green Button (Clone or Download)
+	- Download ZIP
+
+2. Create repository
+	- Name it (something).github.io
+	- Scroll down, click initialize with README
+3. Extract the ZIP file to a new folder on your desktop or wherever, just remember where it's saved
+
+4. Replace images in the Folder
+	- Open that folder, and go to the "img" folder
+	- Delete all the photos, replace them with your own
+	- Make sure the photos have a simple name (something like "img-2126665236-dsiagfvsga-617124628-1.png" is too long
+
+4a. Make a new Icon (OPTIONAL, BUT RECCOMENDED)
+	- Go to "icoconverter.com"
+	- Follow the steps to create an icon, don't change any settings
+		- an icon is the little image that appears on the tab when you go to a website. On GetSLHS, if you
+		  look at the tab, it has an SL. This will let you change that image.
+	- After you've created the icon, it will automatically save to your downloads file
+	- Find it in the downloads, copy it, then paste it into the folder with the code
+		- If the icon file is not named "favicon.ico" change it to that. It will ask if you want to replace the 
+	 	  current file with that name, say yes
+		- If the icon is named "favicon", it will still ask if you want to replace the file, say yes
+
+5. Upload Files
+	- Go back to the repository on GitHub, click upload files
+	- Select all the files in the folder onto GitHub and it will upload and organize the files for you
+	- Don't just drag the folder, open the folder and select the files
+	- Scroll down and click commit changes
+
+6. Replace Images in the Code
+	- after the files have loaded, go back to the code tab in GitHub, Open Styles folder
+	- Open Main.css
+	- Click the pen icon in the top right corner to edit
+	- Scroll down to line 329
+	- replace "annandale.png" to the new file name
+	- repeat all the way down until all images are replaced, then scroll down and click "Commit Changes" 
+
+7. Test the website
+	- After the files have loaded, click settings and scroll down to Pages
+	- In the Source section, click the drop down menu and select "master branch"
+	- The page will refresh, just scroll down to the Source again
+	- it should have a green check mark and say "Your Website is published at..."
+		- If it doesn't, wait a couple minutes, refresh, try again
+	- Click the link to make sure it works
+
+8. Edit the HTML
+	- Scroll to the top of the page, click the "Code" tab
+	- Open the file that says "index.html" and copy the text
+	- Open "https://html-online.com/editor/" and paste the text into the box on the right
+	- Scroll down to where you can see and understand the text, replace it with whatever you want.
+		- If you can't figure this step out, find someone who can, follow a tutorial,
+		  or come ask me, Rei Linam, to help you out
+	- Don't worry that it doesn't look exactly like the game, it's not supposed to
+		- it's just supposed to change the text that comes up on the website
+	- After you've edited it how you like, copy it from the html editor website, go to the "index.html" on GitHub
+		- Make sure you're in edit mode
+ 	- Highlight all the text and paste what you copied from the html editor website
+	- Scroll down and click "Commit Changes"
+
+NOTE: Sometimes it can take a while for the website to be updated, so if the changes aren't live immediately, don't panic,
+just wait a little while and refresh the website
+
+Hopyfully the website has the pictures you want on it, it functions correctly, and the text around the game is right.
+I suggest you test the game out and make sure that each tile has an image. The best way to test is to right click, 
+inspect,
+and click the sideways arrow next to the line that says "div class= tile container".
+Then double click one of the lines that says "tile tile-2..." and change the first 2 to 4, 8, 16, 32, etc., 
+making sure the pictures come up and look the way you want them to.
+
+If the pictures don't look right, my best suggestion is to open the folder that you extracted the ZIP file from and open
+the "index.html" file, which will open the website, but as a file. Only you can access that file.
+Open the img folder, and 
+edit the images in paint, 
+constantly refresh the html page to make sure they look right.
+Once that's all done, go back to the GitHub page, 
+open the img folder, 
+click upload files, 
+drag JUST THE IMAGES onto the site, 
+scroll down and click "Commit Changes".
+
+If you've successfully reached this point, it means that you have made your own version of GetSLHS, which is a copy of
+GetMIT!, which is a copy of 2048. Now you may, or may not, have noticed that the colors of the text don't match the
+images in the game. This step is optional, some of you don't care what the colors are, but some of you may and this is
+how you can fix it. It may be complicated, so I'll do my best to explain in a way that you can all understand.
+
+1. Change Colors in "main.css"
+	- Go to the Code tab in GitHub
+	- open the styles folder
+	- open main.css file
+	- scroll down to line 24 and change the "#4169E1" to another color. 
+		- Google "Hex color picker", 
+		  play around until you find the color you like, 
+		  copy the number under the color box, it should have a # in front
+		  go back to the main.css file in GitHub, and
+		  paste it where the old number with the # in front of it is
+
+		  DO NOT REMOVE OR REPLACE ANYTHING ELSE, JUST REPLACE THE NUMBERS
+
+		- This line edits the color of the Title of the page. Like how GetSLHS is blue, it will change it
+		  to whatever color you want
+
+	- scroll down to line 111 and repeat the same process above
+		- this line changes the color of the hyperlink text, like on GetSLHS, if you scroll below the game, 
+		  there are links that are green. Changing this will change what color they appear as. 
+
+	- scroll down to line 128 and repeat the same process above.
+		- this line changes the small line at the top of the screen. On GetSLHS, it is green, but you can change it
+		  to whatever you'd like.
+
+After you've done this, scroll down to the bottom of the page and click "Commit Changes". Open your website to make sure
+it looks the way you'd like it to, again, changes don't go up immediately, it can a few minutes, just give it some time,
+refresh the page often, and it'll all be working just fine.
+
+If you've made it this far and everything looks great, you're done! 
+
+My final suggestion, and this is not only for you to see how many people are playing your game, but so that you don't
+have to give out a really long url to people when they ask what the name of the website is.
+I suggest that you go to bitly.com, tinyurl.com, or any url shortening website, I personally use bitly the most. Follow
+their instructions and soon you'll have a website that you can spread to everyone around you to let them play what you made.
